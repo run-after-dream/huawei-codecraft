@@ -1,0 +1,1068 @@
+Begin date/time is: Mon Apr  3 09:11:12 2017
+ 	used time is 0 s 0 ms.
+Open file /mnt/hgfs/winshare/case/case_pri.txt OK.
+There are 697 lines in file /mnt/hgfs/winshare/case/case_pri.txt.
+line num is :697 
+[INFO] <process_pre> begin
+[INFO] <process_pre> end
+In cluster1,sum_consumer_need = 5491 num_server_min = 11
+[INFO] <cluster_main> begin
+[INFO] <cluster_main> cluster_id = 1, num_cluster_consumer = 72, need_service_num = 11, max_num_server = 72
+[INFO] <dijkstra_process_main> cluster_id = 1
+In cluster2,sum_consumer_need = 3883 num_server_min = 10
+In cluster3,sum_consumer_need = 1608 num_server_min = 6
+[INFO] <cluster_main> cluster_id = 2, num_cluster_consumer = 53, need_service_num = 10, max_num_server = 53
+[INFO] <dijkstra_process_main> cluster_id = 2
+In cluster4,sum_consumer_need = 1742 num_server_min = 7
+In cluster5,sum_consumer_need = 2141 num_server_min = 7
+[INFO] <cluster_main> cluster_id = 3, num_cluster_consumer = 19, need_service_num = 6, max_num_server = 53
+[INFO] <dijkstra_process_main> cluster_id = 3
+In cluster6,sum_consumer_need = 1009 num_server_min = 4
+In cluster7,sum_consumer_need = 599 num_server_min = 3
+[INFO] <cluster_main> cluster_id = 4, num_cluster_consumer = 25, need_service_num = 7, max_num_server = 25
+[INFO] <dijkstra_process_main> cluster_id = 4
+In cluster8,sum_consumer_need = 1338 num_server_min = 6
+In cluster9,sum_consumer_need = 404 num_server_min = 2
+[INFO] <cluster_main> cluster_id = 5, num_cluster_consumer = 28, need_service_num = 7, max_num_server = 25
+[INFO] <dijkstra_process_main> cluster_id = 5
+In cluster10,sum_consumer_need = 2029 num_server_min = 7
+In cluster11,sum_consumer_need = 112 num_server_min = 1
+[INFO] <cluster_main> cluster_id = 6, num_cluster_consumer = 13, need_service_num = 4, max_num_server = 13
+[INFO] <dijkstra_process_main> cluster_id = 6
+In cluster12,sum_consumer_need = 974 num_server_min = 4
+In cluster13,sum_consumer_need = 35 num_server_min = 1
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_main> cluster_id = 7
+[INFO] <cluster_flow_out_main> cluster_id = 7 id_service_net = 72 num_cluster_consumer = 6
+[INFO] <cluster_flow_out_process> cluster_id = 7 id_service_net = 72
+[INFO] <cluster_link_prune> id_service_net = 72 id_consumer = 17 cost_bandwidth = 76
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 17 is clear
+[INFO] <cluster_link_prune> id_service_net = 72 id_consumer = 50 cost_bandwidth = 21
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 50 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 56 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 55 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 42 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 29 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_main> cluster_id = 7 id_service_net = 17 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 7 id_service_net = 17
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 42 cost_bandwidth = 194
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 42 is clear
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 29 cost_bandwidth = 45
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 50 cost_bandwidth = 3
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 50 cost_bandwidth = 9
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 50 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 50 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 56 cost_bandwidth = 17
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 56 cost_bandwidth = 5
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 56 cost_bandwidth = 5
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 56 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 17 id_consumer = 55 cost_bandwidth = 17
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 55 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 29 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_main> cluster_id = 7 id_service_net = 46 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 7 id_service_net = 46
+[INFO] <cluster_link_prune> id_service_net = 46 id_consumer = 50 cost_bandwidth = 44
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 50 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 56 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 55 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 29 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_main> cluster_id = 7 id_service_net = 56 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 7 id_service_net = 56
+[INFO] <cluster_link_prune> id_service_net = 56 id_consumer = 56 cost_bandwidth = 136
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 56 is clear
+[INFO] <cluster_link_prune> id_service_net = 56 id_consumer = 29 cost_bandwidth = 11
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 29 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 55 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_center> net_id = 0 vlaue = -999869 out_flow = 130
+[INFO] <cluster_center> net_id = 12 vlaue = -999970 out_flow = 29
+[INFO] <cluster_center> net_id = 15 vlaue = -999956 out_flow = 43
+[INFO] <cluster_center> net_id = 18 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 24 vlaue = -999945 out_flow = 54
+[INFO] <cluster_center> net_id = 28 vlaue = -999961 out_flow = 38
+[INFO] <cluster_center> net_id = 40 vlaue = -999902 out_flow = 97
+[INFO] <cluster_center> net_id = 44 vlaue = -999898 out_flow = 101
+[INFO] <cluster_center> net_id = 65 vlaue = 27 out_flow = 27
+[INFO] <cluster_center> net_id = 73 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 141 vlaue = -999982 out_flow = 17
+[INFO] <cluster_center> net_id = 153 vlaue = -999914 out_flow = 85
+[INFO] <cluster_center> net_id = 154 vlaue = -999949 out_flow = 50
+[INFO] <cluster_flow_out_main> cluster_id = 7 id_service_net = 65 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 7 id_service_net = 65
+[INFO] <cluster_link_prune> id_service_net = 65 id_consumer = 55 cost_bandwidth = 10
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO] <cluster_flow_out_process> id_consumer = 55 is clear
+[INFO] <dijkstra_process_main> cluster_id = 7
+[INFO]<cluster_flow_out_main> cluster7: server num : 5
+[INFO] <cluster_main> cluster_id = 8, num_cluster_consumer = 20, need_service_num = 6, max_num_server = 20
+[INFO] <dijkstra_process_main> cluster_id = 8
+In cluster16,sum_consumer_need = 680 num_server_min = 4
+In cluster17,sum_consumer_need = 658 num_server_min = 4
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_main> cluster_id = 9
+[INFO] <cluster_flow_out_main> cluster_id = 9 id_service_net = 127 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 9 id_service_net = 127
+[INFO] <cluster_link_prune> id_service_net = 127 id_consumer = 0 cost_bandwidth = 24
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 0 is clear
+[INFO] <cluster_link_prune> id_service_net = 127 id_consumer = 10 cost_bandwidth = 8
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 10 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 58 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 36 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 16 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_center> net_id = 81 vlaue = 231 out_flow = 246
+[INFO] <cluster_center> net_id = 82 vlaue = 144 out_flow = 159
+[INFO] <cluster_center> net_id = 83 vlaue = 253 out_flow = 263
+[INFO] <cluster_center> net_id = 84 vlaue = 249 out_flow = 260
+[INFO] <cluster_center> net_id = 85 vlaue = 274 out_flow = 284
+[INFO] <cluster_flow_out_main> cluster_id = 9 id_service_net = 85 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 9 id_service_net = 85
+[INFO] <cluster_link_prune> id_service_net = 85 id_consumer = 16 cost_bandwidth = 103
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 16 is clear
+[INFO] <cluster_link_prune> id_service_net = 85 id_consumer = 58 cost_bandwidth = 41
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_link_prune> id_service_net = 85 id_consumer = 10 cost_bandwidth = 49
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_link_prune> id_service_net = 85 id_consumer = 36 cost_bandwidth = 43
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_link_prune> id_service_net = 85 id_consumer = 10 cost_bandwidth = 22
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 10 is clear
+[INFO] <cluster_link_prune> id_service_net = 85 id_consumer = 58 cost_bandwidth = 26
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 58 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 36 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_center> net_id = 81 vlaue = 156 out_flow = 160
+[INFO] <cluster_center> net_id = 82 vlaue = 51 out_flow = 63
+[INFO] <cluster_center> net_id = 83 vlaue = 151 out_flow = 155
+[INFO] <cluster_center> net_id = 84 vlaue = 104 out_flow = 114
+[INFO] <cluster_flow_out_main> cluster_id = 9 id_service_net = 81 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 9 id_service_net = 81
+[INFO] <cluster_link_prune> id_service_net = 81 id_consumer = 36 cost_bandwidth = 58
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 36 is clear
+[INFO] <cluster_link_prune> id_service_net = 81 id_consumer = 58 cost_bandwidth = 30
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO] <cluster_flow_out_process> id_consumer = 58 is clear
+[INFO] <dijkstra_process_main> cluster_id = 9
+[INFO]<cluster_flow_out_main> cluster9: server num : 3
+[INFO] <cluster_main> cluster_id = 10, num_cluster_consumer = 26, need_service_num = 7, max_num_server = 26
+[INFO] <dijkstra_process_main> cluster_id = 10
+In cluster20,sum_consumer_need = 1418 num_server_min = 6
+In cluster21,sum_consumer_need = 611 num_server_min = 3
+[INFO] <dijkstra_process_main> cluster_id = 11
+[INFO] <cluster_flow_out_main> cluster_id = 11
+[INFO] <cluster_flow_out_main> cluster_id = 11 id_service_net = 69 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 11 id_service_net = 69
+[INFO] <cluster_link_prune> id_service_net = 69 id_consumer = 14 cost_bandwidth = 73
+[INFO] <dijkstra_process_main> cluster_id = 11
+[INFO] <cluster_flow_out_process> id_consumer = 14 is clear
+[INFO] <cluster_link_prune> id_service_net = 69 id_consumer = 57 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 11
+[INFO] <cluster_flow_out_process> id_consumer = 57 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 11
+[INFO] <cluster_flow_out_main> cluster_id = 11 id_service_net = 134 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 11 id_service_net = 134
+[INFO] <cluster_link_prune> id_service_net = 134 id_consumer = 57 cost_bandwidth = 33
+[INFO] <dijkstra_process_main> cluster_id = 11
+[INFO] <cluster_flow_out_process> id_consumer = 57 is clear
+[INFO] <dijkstra_process_main> cluster_id = 11
+[INFO]<cluster_flow_out_main> cluster11: server num : 2
+[INFO] <cluster_main> cluster_id = 12, num_cluster_consumer = 12, need_service_num = 4, max_num_server = 12
+[INFO] <dijkstra_process_main> cluster_id = 12
+In cluster24,sum_consumer_need = 597 num_server_min = 3
+In cluster25,sum_consumer_need = 377 num_server_min = 2
+[INFO] <dijkstra_process_main> cluster_id = 13
+[INFO] <cluster_flow_out_main> cluster_id = 13
+[INFO] <cluster_flow_out_main> cluster_id = 13 id_service_net = 45 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 13 id_service_net = 45
+[INFO] <cluster_link_prune> id_service_net = 45 id_consumer = 66 cost_bandwidth = 35
+[INFO] <dijkstra_process_main> cluster_id = 13
+[INFO] <cluster_flow_out_process> id_consumer = 66 is clear
+[INFO] <dijkstra_process_main> cluster_id = 13
+[INFO]<cluster_flow_out_main> cluster13: server num : 1
+[INFO] <cluster_main> cluster_id = 16, num_cluster_consumer = 10, need_service_num = 4, max_num_server = 10
+[INFO] <dijkstra_process_main> cluster_id = 16
+In cluster32,sum_consumer_need = 286 num_server_min = 3
+In cluster33,sum_consumer_need = 394 num_server_min = 3
+[INFO] <cluster_main> cluster_id = 17, num_cluster_consumer = 10, need_service_num = 4, max_num_server = 10
+[INFO] <dijkstra_process_main> cluster_id = 17
+In cluster34,sum_consumer_need = 515 num_server_min = 3
+In cluster35,sum_consumer_need = 143 num_server_min = 2
+[INFO] <cluster_main> cluster_id = 20, num_cluster_consumer = 17, need_service_num = 6, max_num_server = 17
+[INFO] <dijkstra_process_main> cluster_id = 20
+In cluster40,sum_consumer_need = 1244 num_server_min = 6
+In cluster41,sum_consumer_need = 174 num_server_min = 2
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_main> cluster_id = 21
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 25 num_cluster_consumer = 9
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 25
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 8 cost_bandwidth = 200
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 8 is clear
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 65 cost_bandwidth = 23
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 27 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 25 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 39 cost_bandwidth = 13
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 25 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 25 id_consumer = 27 cost_bandwidth = 12
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 27 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 69 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 65 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 61 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 52 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 39 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 25 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 37 num_cluster_consumer = 8
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 37
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 27 cost_bandwidth = 79
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 27 is clear
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 69 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 69 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 65 cost_bandwidth = 13
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 52 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 52 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 34 cost_bandwidth = 28
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 34 cost_bandwidth = 3
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 39 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 37 id_consumer = 65 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 65 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 61 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 39 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 25 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 97 num_cluster_consumer = 7
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 97
+[INFO] <cluster_link_prune> id_service_net = 97 id_consumer = 39 cost_bandwidth = 77
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 39 is clear
+[INFO] <cluster_link_prune> id_service_net = 97 id_consumer = 65 cost_bandwidth = 13
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 65 is clear
+[INFO] <cluster_link_prune> id_service_net = 97 id_consumer = 61 cost_bandwidth = 3
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 61 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 97 id_consumer = 25 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 25 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 69 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 52 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 75 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 75
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 61 cost_bandwidth = 50
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 61 is clear
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 25 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 25 cost_bandwidth = 7
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 25 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 25 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 25 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_link_prune> id_service_net = 75 id_consumer = 25 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 25 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 69 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 52 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 124 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 124
+[INFO] <cluster_link_prune> id_service_net = 124 id_consumer = 69 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 69 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 52 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 25 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_center> net_id = 2 vlaue = -2999944 out_flow = 53
+[INFO] <cluster_center> net_id = 3 vlaue = -2999884 out_flow = 113
+[INFO] <cluster_center> net_id = 23 vlaue = -2999963 out_flow = 34
+[INFO] <cluster_center> net_id = 29 vlaue = -2999985 out_flow = 12
+[INFO] <cluster_center> net_id = 33 vlaue = -1999939 out_flow = 63
+[INFO] <cluster_center> net_id = 35 vlaue = -1999961 out_flow = 43
+[INFO] <cluster_center> net_id = 42 vlaue = -2999980 out_flow = 17
+[INFO] <cluster_center> net_id = 43 vlaue = -2999902 out_flow = 95
+[INFO] <cluster_center> net_id = 58 vlaue = -1999961 out_flow = 37
+[INFO] <cluster_center> net_id = 62 vlaue = -2999949 out_flow = 48
+[INFO] <cluster_center> net_id = 74 vlaue = -2999975 out_flow = 22
+[INFO] <cluster_center> net_id = 76 vlaue = -2999956 out_flow = 41
+[INFO] <cluster_center> net_id = 77 vlaue = -2999850 out_flow = 147
+[INFO] <cluster_center> net_id = 86 vlaue = -2999966 out_flow = 31
+[INFO] <cluster_center> net_id = 91 vlaue = -2999979 out_flow = 18
+[INFO] <cluster_center> net_id = 99 vlaue = -1999897 out_flow = 101
+[INFO] <cluster_center> net_id = 100 vlaue = -2999967 out_flow = 30
+[INFO] <cluster_center> net_id = 101 vlaue = -1999955 out_flow = 50
+[INFO] <cluster_center> net_id = 102 vlaue = -1999956 out_flow = 51
+[INFO] <cluster_center> net_id = 113 vlaue = -2999957 out_flow = 40
+[INFO] <cluster_center> net_id = 116 vlaue = -2999994 out_flow = 3
+[INFO] <cluster_center> net_id = 122 vlaue = -2999963 out_flow = 34
+[INFO] <cluster_center> net_id = 130 vlaue = -2999944 out_flow = 53
+[INFO] <cluster_center> net_id = 131 vlaue = -1999943 out_flow = 55
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 99 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 99
+[INFO] <cluster_link_prune> id_service_net = 99 id_consumer = 25 cost_bandwidth = 3
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 25 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 52 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_center> net_id = 2 vlaue = -1999937 out_flow = 61
+[INFO] <cluster_center> net_id = 3 vlaue = -1999863 out_flow = 135
+[INFO] <cluster_center> net_id = 23 vlaue = -1999960 out_flow = 38
+[INFO] <cluster_center> net_id = 29 vlaue = -1999986 out_flow = 12
+[INFO] <cluster_center> net_id = 33 vlaue = -999940 out_flow = 63
+[INFO] <cluster_center> net_id = 35 vlaue = -999962 out_flow = 43
+[INFO] <cluster_center> net_id = 42 vlaue = -1999977 out_flow = 21
+[INFO] <cluster_center> net_id = 43 vlaue = -1999903 out_flow = 95
+[INFO] <cluster_center> net_id = 58 vlaue = -999962 out_flow = 37
+[INFO] <cluster_center> net_id = 62 vlaue = -1999950 out_flow = 48
+[INFO] <cluster_center> net_id = 74 vlaue = -1999966 out_flow = 32
+[INFO] <cluster_center> net_id = 76 vlaue = -1999948 out_flow = 50
+[INFO] <cluster_center> net_id = 77 vlaue = -1999830 out_flow = 168
+[INFO] <cluster_center> net_id = 86 vlaue = -1999967 out_flow = 31
+[INFO] <cluster_center> net_id = 91 vlaue = -1999980 out_flow = 18
+[INFO] <cluster_center> net_id = 100 vlaue = -1999953 out_flow = 45
+[INFO] <cluster_center> net_id = 101 vlaue = -1999992 out_flow = 6
+[INFO] <cluster_center> net_id = 102 vlaue = -1999971 out_flow = 27
+[INFO] <cluster_center> net_id = 113 vlaue = -1999958 out_flow = 40
+[INFO] <cluster_center> net_id = 116 vlaue = -1999995 out_flow = 3
+[INFO] <cluster_center> net_id = 122 vlaue = -1999964 out_flow = 34
+[INFO] <cluster_center> net_id = 130 vlaue = -1999935 out_flow = 63
+[INFO] <cluster_center> net_id = 131 vlaue = -999944 out_flow = 55
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 33 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 33
+[INFO] <cluster_link_prune> id_service_net = 33 id_consumer = 52 cost_bandwidth = 17
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 52 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 34 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_center> net_id = 2 vlaue = -999938 out_flow = 61
+[INFO] <cluster_center> net_id = 3 vlaue = -999864 out_flow = 135
+[INFO] <cluster_center> net_id = 23 vlaue = -999961 out_flow = 38
+[INFO] <cluster_center> net_id = 29 vlaue = -999987 out_flow = 12
+[INFO] <cluster_center> net_id = 35 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 42 vlaue = -999978 out_flow = 21
+[INFO] <cluster_center> net_id = 43 vlaue = -999904 out_flow = 95
+[INFO] <cluster_center> net_id = 58 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 62 vlaue = -999951 out_flow = 48
+[INFO] <cluster_center> net_id = 74 vlaue = -999967 out_flow = 32
+[INFO] <cluster_center> net_id = 76 vlaue = -999949 out_flow = 50
+[INFO] <cluster_center> net_id = 77 vlaue = -999831 out_flow = 168
+[INFO] <cluster_center> net_id = 86 vlaue = -999968 out_flow = 31
+[INFO] <cluster_center> net_id = 91 vlaue = -999981 out_flow = 18
+[INFO] <cluster_center> net_id = 100 vlaue = -999954 out_flow = 45
+[INFO] <cluster_center> net_id = 101 vlaue = -999993 out_flow = 6
+[INFO] <cluster_center> net_id = 102 vlaue = -999972 out_flow = 27
+[INFO] <cluster_center> net_id = 113 vlaue = -999959 out_flow = 40
+[INFO] <cluster_center> net_id = 116 vlaue = -999996 out_flow = 3
+[INFO] <cluster_center> net_id = 122 vlaue = -999965 out_flow = 34
+[INFO] <cluster_center> net_id = 130 vlaue = -999936 out_flow = 63
+[INFO] <cluster_center> net_id = 131 vlaue = 55 out_flow = 55
+[INFO] <cluster_flow_out_main> cluster_id = 21 id_service_net = 131 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 21 id_service_net = 131
+[INFO] <cluster_link_prune> id_service_net = 131 id_consumer = 34 cost_bandwidth = 24
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO] <cluster_flow_out_process> id_consumer = 34 is clear
+[INFO] <dijkstra_process_main> cluster_id = 21
+[INFO]<cluster_flow_out_main> cluster21: server num : 8
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_main> cluster_id = 24
+[INFO] <cluster_flow_out_main> cluster_id = 24 id_service_net = 20 num_cluster_consumer = 7
+[INFO] <cluster_flow_out_process> cluster_id = 24 id_service_net = 20
+[INFO] <cluster_link_prune> id_service_net = 20 id_consumer = 18 cost_bandwidth = 170
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 18 is clear
+[INFO] <cluster_link_prune> id_service_net = 20 id_consumer = 60 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 60 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 51 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 40 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 20 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 12 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 7 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_main> cluster_id = 24 id_service_net = 107 num_cluster_consumer = 6
+[INFO] <cluster_flow_out_process> cluster_id = 24 id_service_net = 107
+[INFO] <cluster_link_prune> id_service_net = 107 id_consumer = 20 cost_bandwidth = 52
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 20 is clear
+[INFO] <cluster_link_prune> id_service_net = 107 id_consumer = 60 cost_bandwidth = 12
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_link_prune> id_service_net = 107 id_consumer = 51 cost_bandwidth = 20
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 51 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 60 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 40 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 12 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 7 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_main> cluster_id = 24 id_service_net = 139 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 24 id_service_net = 139
+[INFO] <cluster_link_prune> id_service_net = 139 id_consumer = 51 cost_bandwidth = 99
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 51 is clear
+[INFO] <cluster_link_prune> id_service_net = 139 id_consumer = 40 cost_bandwidth = 39
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_link_prune> id_service_net = 139 id_consumer = 12 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 12 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 139 id_consumer = 40 cost_bandwidth = 26
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_link_prune> id_service_net = 139 id_consumer = 40 cost_bandwidth = 9
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 40 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 60 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 7 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_center> net_id = 19 vlaue = -2999997 out_flow = 0
+[INFO] <cluster_center> net_id = 26 vlaue = 29 out_flow = 40
+[INFO] <cluster_center> net_id = 104 vlaue = -2999977 out_flow = 20
+[INFO] <cluster_center> net_id = 119 vlaue = -2999992 out_flow = 5
+[INFO] <cluster_center> net_id = 136 vlaue = -2999960 out_flow = 37
+[INFO] <cluster_center> net_id = 137 vlaue = -2999882 out_flow = 115
+[INFO] <cluster_center> net_id = 140 vlaue = -2999922 out_flow = 75
+[INFO] <cluster_center> net_id = 144 vlaue = 94 out_flow = 98
+[INFO] <cluster_center> net_id = 145 vlaue = 29 out_flow = 38
+[INFO] <cluster_center> net_id = 147 vlaue = 187 out_flow = 192
+[INFO] <cluster_center> net_id = 148 vlaue = 93 out_flow = 96
+[INFO] <cluster_center> net_id = 156 vlaue = -2999955 out_flow = 42
+[INFO] <cluster_flow_out_main> cluster_id = 24 id_service_net = 147 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 24 id_service_net = 147
+[INFO] <cluster_link_prune> id_service_net = 147 id_consumer = 7 cost_bandwidth = 85
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 7 is clear
+[INFO] <cluster_link_prune> id_service_net = 147 id_consumer = 12 cost_bandwidth = 30
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_link_prune> id_service_net = 147 id_consumer = 60 cost_bandwidth = 7
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_link_prune> id_service_net = 147 id_consumer = 60 cost_bandwidth = 28
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 60 is clear
+[INFO] <cluster_link_prune> id_service_net = 147 id_consumer = 12 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 12 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_center> net_id = 19 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 26 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 104 vlaue = -999979 out_flow = 20
+[INFO] <cluster_center> net_id = 119 vlaue = -999994 out_flow = 5
+[INFO] <cluster_center> net_id = 136 vlaue = -999962 out_flow = 37
+[INFO] <cluster_center> net_id = 137 vlaue = -999884 out_flow = 115
+[INFO] <cluster_center> net_id = 140 vlaue = -999924 out_flow = 75
+[INFO] <cluster_center> net_id = 144 vlaue = 30 out_flow = 31
+[INFO] <cluster_center> net_id = 145 vlaue = 20 out_flow = 24
+[INFO] <cluster_center> net_id = 148 vlaue = 34 out_flow = 34
+[INFO] <cluster_center> net_id = 156 vlaue = -999957 out_flow = 42
+[INFO] <cluster_flow_out_main> cluster_id = 24 id_service_net = 148 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 24 id_service_net = 148
+[INFO] <cluster_link_prune> id_service_net = 148 id_consumer = 12 cost_bandwidth = 14
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO] <cluster_flow_out_process> id_consumer = 12 is clear
+[INFO] <dijkstra_process_main> cluster_id = 24
+[INFO]<cluster_flow_out_main> cluster24: server num : 5
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_main> cluster_id = 25
+[INFO] <cluster_flow_out_main> cluster_id = 25 id_service_net = 135 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 25 id_service_net = 135
+[INFO] <cluster_link_prune> id_service_net = 135 id_consumer = 5 cost_bandwidth = 101
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 5 is clear
+[INFO] <cluster_link_prune> id_service_net = 135 id_consumer = 35 cost_bandwidth = 11
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 35 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 71 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 26 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 13 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_main> cluster_id = 25 id_service_net = 50 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 25 id_service_net = 50
+[INFO] <cluster_link_prune> id_service_net = 50 id_consumer = 13 cost_bandwidth = 43
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 13 is clear
+[INFO] <cluster_link_prune> id_service_net = 50 id_consumer = 71 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_link_prune> id_service_net = 50 id_consumer = 35 cost_bandwidth = 30
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 35 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 71 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 26 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_main> cluster_id = 25 id_service_net = 30 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 25 id_service_net = 30
+[INFO] <cluster_link_prune> id_service_net = 30 id_consumer = 26 cost_bandwidth = 85
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 26 is clear
+[INFO] <cluster_link_prune> id_service_net = 30 id_consumer = 35 cost_bandwidth = 39
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 35 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 71 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_center> net_id = 13 vlaue = 13 out_flow = 41
+[INFO] <cluster_center> net_id = 49 vlaue = 126 out_flow = 136
+[INFO] <cluster_center> net_id = 51 vlaue = 48 out_flow = 58
+[INFO] <cluster_center> net_id = 93 vlaue = 44 out_flow = 64
+[INFO] <cluster_center> net_id = 115 vlaue = 48 out_flow = 72
+[INFO] <cluster_center> net_id = 117 vlaue = -1999998 out_flow = 0
+[INFO] <cluster_center> net_id = 132 vlaue = -6 out_flow = 14
+[INFO] <cluster_center> net_id = 133 vlaue = 73 out_flow = 91
+[INFO] <cluster_center> net_id = 138 vlaue = -1999998 out_flow = 0
+[INFO] <cluster_flow_out_main> cluster_id = 25 id_service_net = 49 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 25 id_service_net = 49
+[INFO] <cluster_link_prune> id_service_net = 49 id_consumer = 35 cost_bandwidth = 50
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 35 is clear
+[INFO] <cluster_link_prune> id_service_net = 49 id_consumer = 71 cost_bandwidth = 16
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO] <cluster_flow_out_process> id_consumer = 71 is clear
+[INFO] <dijkstra_process_main> cluster_id = 25
+[INFO]<cluster_flow_out_main> cluster25: server num : 4
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_main> cluster_id = 32
+[INFO] <cluster_flow_out_main> cluster_id = 32 id_service_net = 61 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 32 id_service_net = 61
+[INFO] <cluster_link_prune> id_service_net = 61 id_consumer = 37 cost_bandwidth = 62
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 37 is clear
+[INFO] <cluster_link_prune> id_service_net = 61 id_consumer = 68 cost_bandwidth = 24
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_link_prune> id_service_net = 61 id_consumer = 48 cost_bandwidth = 25
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 48 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 68 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 45 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 23 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_main> cluster_id = 32 id_service_net = 87 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 32 id_service_net = 87
+[INFO] <cluster_link_prune> id_service_net = 87 id_consumer = 45 cost_bandwidth = 68
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 45 is clear
+[INFO] <cluster_link_prune> id_service_net = 87 id_consumer = 23 cost_bandwidth = 8
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 23 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 68 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 48 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_main> cluster_id = 32 id_service_net = 60 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 32 id_service_net = 60
+[INFO] <cluster_link_prune> id_service_net = 60 id_consumer = 48 cost_bandwidth = 73
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 48 is clear
+[INFO] <cluster_link_prune> id_service_net = 60 id_consumer = 23 cost_bandwidth = 8
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 23 is clear
+[INFO] <cluster_link_prune> id_service_net = 60 id_consumer = 68 cost_bandwidth = 10
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 68 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_center> net_id = 16 vlaue = -999965 out_flow = 34
+[INFO] <cluster_center> net_id = 64 vlaue = -999983 out_flow = 16
+[INFO] <cluster_center> net_id = 79 vlaue = 60 out_flow = 60
+[INFO] <cluster_center> net_id = 80 vlaue = 33 out_flow = 36
+[INFO] <cluster_center> net_id = 88 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 90 vlaue = 40 out_flow = 48
+[INFO] <cluster_center> net_id = 96 vlaue = 3 out_flow = 13
+[INFO] <cluster_center> net_id = 98 vlaue = 16 out_flow = 27
+[INFO] <cluster_flow_out_main> cluster_id = 32 id_service_net = 79 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 32 id_service_net = 79
+[INFO] <cluster_link_prune> id_service_net = 79 id_consumer = 68 cost_bandwidth = 8
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO] <cluster_flow_out_process> id_consumer = 68 is clear
+[INFO] <dijkstra_process_main> cluster_id = 32
+[INFO]<cluster_flow_out_main> cluster32: server num : 4
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_main> cluster_id = 33
+[INFO] <cluster_flow_out_main> cluster_id = 33 id_service_net = 129 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 33 id_service_net = 129
+[INFO] <cluster_link_prune> id_service_net = 129 id_consumer = 30 cost_bandwidth = 45
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 30 is clear
+[INFO] <cluster_link_prune> id_service_net = 129 id_consumer = 62 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 62 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 129 id_consumer = 63 cost_bandwidth = 28
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 63 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 129 id_consumer = 44 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 44 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 33 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_main> cluster_id = 33 id_service_net = 157 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 33 id_service_net = 157
+[INFO] <cluster_link_prune> id_service_net = 157 id_consumer = 33 cost_bandwidth = 27
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 33 is clear
+[INFO] <cluster_link_prune> id_service_net = 157 id_consumer = 63 cost_bandwidth = 8
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 63 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 62 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 44 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_main> cluster_id = 33 id_service_net = 89 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 33 id_service_net = 89
+[INFO] <cluster_link_prune> id_service_net = 89 id_consumer = 44 cost_bandwidth = 191
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 44 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 63 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 62 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_main> cluster_id = 33 id_service_net = 78 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 33 id_service_net = 78
+[INFO] <cluster_link_prune> id_service_net = 78 id_consumer = 62 cost_bandwidth = 24
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 62 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 63 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_main> cluster_id = 33 id_service_net = 155 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 33 id_service_net = 155
+[INFO] <cluster_link_prune> id_service_net = 155 id_consumer = 63 cost_bandwidth = 64
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO] <cluster_flow_out_process> id_consumer = 63 is clear
+[INFO] <dijkstra_process_main> cluster_id = 33
+[INFO]<cluster_flow_out_main> cluster33: server num : 5
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_main> cluster_id = 34
+[INFO] <cluster_flow_out_main> cluster_id = 34 id_service_net = 54 num_cluster_consumer = 7
+[INFO] <cluster_flow_out_process> cluster_id = 34 id_service_net = 54
+[INFO] <cluster_link_prune> id_service_net = 54 id_consumer = 11 cost_bandwidth = 73
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 11 is clear
+[INFO] <cluster_link_prune> id_service_net = 54 id_consumer = 70 cost_bandwidth = 15
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 70 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 54 id_consumer = 19 cost_bandwidth = 14
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 19 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 64 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 46 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 31 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 2 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_main> cluster_id = 34 id_service_net = 158 num_cluster_consumer = 6
+[INFO] <cluster_flow_out_process> cluster_id = 34 id_service_net = 158
+[INFO] <cluster_link_prune> id_service_net = 158 id_consumer = 19 cost_bandwidth = 17
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 19 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 70 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 64 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 46 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 31 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 2 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_main> cluster_id = 34 id_service_net = 103 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 34 id_service_net = 103
+[INFO] <cluster_link_prune> id_service_net = 103 id_consumer = 46 cost_bandwidth = 134
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 46 is clear
+[INFO] <cluster_link_prune> id_service_net = 103 id_consumer = 64 cost_bandwidth = 20
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_link_prune> id_service_net = 103 id_consumer = 70 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_link_prune> id_service_net = 103 id_consumer = 64 cost_bandwidth = 39
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 64 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 70 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 31 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 2 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_main> cluster_id = 34 id_service_net = 106 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 34 id_service_net = 106
+[INFO] <cluster_link_prune> id_service_net = 106 id_consumer = 64 cost_bandwidth = 59
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 64 is clear
+[INFO] <cluster_link_prune> id_service_net = 106 id_consumer = 70 cost_bandwidth = 5
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_link_prune> id_service_net = 106 id_consumer = 70 cost_bandwidth = 20
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_link_prune> id_service_net = 106 id_consumer = 70 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 70 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 106 id_consumer = 2 cost_bandwidth = 28
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 2 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 31 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_main> cluster_id = 34 id_service_net = 66 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 34 id_service_net = 66
+[INFO] <cluster_link_prune> id_service_net = 66 id_consumer = 70 cost_bandwidth = 51
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 70 is clear
+[INFO] <cluster_link_prune> id_service_net = 66 id_consumer = 2 cost_bandwidth = 14
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 2 is clear
+[INFO] <cluster_link_prune> id_service_net = 66 id_consumer = 31 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 31 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_center> net_id = 27 vlaue = -999950 out_flow = 49
+[INFO] <cluster_center> net_id = 53 vlaue = -999984 out_flow = 15
+[INFO] <cluster_center> net_id = 55 vlaue = -999984 out_flow = 15
+[INFO] <cluster_center> net_id = 68 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 92 vlaue = -999926 out_flow = 73
+[INFO] <cluster_center> net_id = 105 vlaue = -999975 out_flow = 24
+[INFO] <cluster_center> net_id = 120 vlaue = 51 out_flow = 51
+[INFO] <cluster_center> net_id = 121 vlaue = 75 out_flow = 76
+[INFO] <cluster_flow_out_main> cluster_id = 34 id_service_net = 121 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 34 id_service_net = 121
+[INFO] <cluster_link_prune> id_service_net = 121 id_consumer = 31 cost_bandwidth = 17
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO] <cluster_flow_out_process> id_consumer = 31 is clear
+[INFO] <dijkstra_process_main> cluster_id = 34
+[INFO]<cluster_flow_out_main> cluster34: server num : 6
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO] <cluster_flow_out_main> cluster_id = 35
+[INFO] <cluster_flow_out_main> cluster_id = 35 id_service_net = 67 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 35 id_service_net = 67
+[INFO] <cluster_link_prune> id_service_net = 67 id_consumer = 49 cost_bandwidth = 47
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO] <cluster_flow_out_process> id_consumer = 49 is clear
+[INFO] <cluster_link_prune> id_service_net = 67 id_consumer = 43 cost_bandwidth = 26
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO] <cluster_flow_out_process> id_consumer = 43 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 59 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO] <cluster_flow_out_main> cluster_id = 35 id_service_net = 59 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 35 id_service_net = 59
+[INFO] <cluster_link_prune> id_service_net = 59 id_consumer = 59 cost_bandwidth = 68
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO] <cluster_flow_out_process> id_consumer = 59 is clear
+[INFO] <cluster_link_prune> id_service_net = 59 id_consumer = 43 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO] <cluster_flow_out_process> id_consumer = 43 is clear
+[INFO] <dijkstra_process_main> cluster_id = 35
+[INFO]<cluster_flow_out_main> cluster35: server num : 2
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 36 num_cluster_consumer = 14
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 36
+[INFO] <cluster_link_prune> id_service_net = 36 id_consumer = 3 cost_bandwidth = 122
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 3 is clear
+[INFO] <cluster_link_prune> id_service_net = 36 id_consumer = 53 cost_bandwidth = 49
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 36 id_consumer = 38 cost_bandwidth = 48
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 38 is clear
+[INFO] <cluster_link_prune> id_service_net = 36 id_consumer = 53 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 36 id_consumer = 53 cost_bandwidth = 9
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 36 id_consumer = 24 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 24 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 28 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 22 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 9 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 6 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 4 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 22 num_cluster_consumer = 12
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 22
+[INFO] <cluster_link_prune> id_service_net = 22 id_consumer = 4 cost_bandwidth = 115
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 4 is clear
+[INFO] <cluster_link_prune> id_service_net = 22 id_consumer = 24 cost_bandwidth = 41
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 22 id_consumer = 6 cost_bandwidth = 10
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 6 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 28 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 24 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 22 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 9 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 63 num_cluster_consumer = 11
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 63
+[INFO] <cluster_link_prune> id_service_net = 63 id_consumer = 6 cost_bandwidth = 60
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 6 is clear
+[INFO] <cluster_link_prune> id_service_net = 63 id_consumer = 53 cost_bandwidth = 27
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 28 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 24 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 22 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 9 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 31 num_cluster_consumer = 10
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 31
+[INFO] <cluster_link_prune> id_service_net = 31 id_consumer = 9 cost_bandwidth = 49
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 9 is clear
+[INFO] <cluster_link_prune> id_service_net = 31 id_consumer = 15 cost_bandwidth = 38
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 31 id_consumer = 53 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 28 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 24 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 22 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 128 num_cluster_consumer = 9
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 128
+[INFO] <cluster_link_prune> id_service_net = 128 id_consumer = 22 cost_bandwidth = 145
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 22 is clear
+[INFO] <cluster_link_prune> id_service_net = 128 id_consumer = 15 cost_bandwidth = 9
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 128 id_consumer = 24 cost_bandwidth = 3
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 128 id_consumer = 53 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 128 id_consumer = 28 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 28 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 24 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 126 num_cluster_consumer = 8
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 126
+[INFO] <cluster_link_prune> id_service_net = 126 id_consumer = 24 cost_bandwidth = 120
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 24 is clear
+[INFO] <cluster_link_prune> id_service_net = 126 id_consumer = 41 cost_bandwidth = 13
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 126 id_consumer = 47 cost_bandwidth = 36
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 126 id_consumer = 32 cost_bandwidth = 10
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 126 id_consumer = 32 cost_bandwidth = 37
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 28 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 159 num_cluster_consumer = 7
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 159
+[INFO] <cluster_link_prune> id_service_net = 159 id_consumer = 28 cost_bandwidth = 36
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 28 is clear
+[INFO] <cluster_link_prune> id_service_net = 159 id_consumer = 47 cost_bandwidth = 9
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 159 id_consumer = 47 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 159 id_consumer = 41 cost_bandwidth = 5
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 159 id_consumer = 47 cost_bandwidth = 3
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 32 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 123 num_cluster_consumer = 6
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 123
+[INFO] <cluster_link_prune> id_service_net = 123 id_consumer = 32 cost_bandwidth = 32
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 32 is clear
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 41 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 114 num_cluster_consumer = 5
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 114
+[INFO] <cluster_link_prune> id_service_net = 114 id_consumer = 41 cost_bandwidth = 85
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 41 is clear
+[INFO] <cluster_link_prune> id_service_net = 114 id_consumer = 47 cost_bandwidth = 4
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 114 id_consumer = 47 cost_bandwidth = 9
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_link_prune> id_service_net = 114 id_consumer = 47 cost_bandwidth = 5
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 47 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 53 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 21 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_center> net_id = 1 vlaue = -3000009 out_flow = 7
+[INFO] <cluster_center> net_id = 4 vlaue = -2999893 out_flow = 104
+[INFO] <cluster_center> net_id = 5 vlaue = -2999898 out_flow = 111
+[INFO] <cluster_center> net_id = 6 vlaue = -2999913 out_flow = 92
+[INFO] <cluster_center> net_id = 7 vlaue = -2999910 out_flow = 100
+[INFO] <cluster_center> net_id = 11 vlaue = 21 out_flow = 62
+[INFO] <cluster_center> net_id = 14 vlaue = 24 out_flow = 65
+[INFO] <cluster_center> net_id = 32 vlaue = -3000005 out_flow = 7
+[INFO] <cluster_center> net_id = 34 vlaue = -2999991 out_flow = 20
+[INFO] <cluster_center> net_id = 41 vlaue = -2999983 out_flow = 39
+[INFO] <cluster_center> net_id = 47 vlaue = 52 out_flow = 83
+[INFO] <cluster_center> net_id = 48 vlaue = 101 out_flow = 126
+[INFO] <cluster_center> net_id = 52 vlaue = -37 out_flow = 16
+[INFO] <cluster_center> net_id = 57 vlaue = 72 out_flow = 97
+[INFO] <cluster_center> net_id = 70 vlaue = -3000004 out_flow = 19
+[INFO] <cluster_center> net_id = 111 vlaue = -3999961 out_flow = 35
+[INFO] <cluster_center> net_id = 112 vlaue = -3999956 out_flow = 40
+[INFO] <cluster_center> net_id = 125 vlaue = -3999996 out_flow = 0
+[INFO] <cluster_center> net_id = 146 vlaue = -2999957 out_flow = 57
+[INFO] <cluster_center> net_id = 150 vlaue = -2999982 out_flow = 38
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 48 num_cluster_consumer = 4
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 48
+[INFO] <cluster_link_prune> id_service_net = 48 id_consumer = 21 cost_bandwidth = 58
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 21 is clear
+[INFO] <cluster_link_prune> id_service_net = 48 id_consumer = 53 cost_bandwidth = 20
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 53 is clear
+[INFO] <cluster_link_prune> id_service_net = 48 id_consumer = 15 cost_bandwidth = 1
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 15 is can not flow
+[INFO] <cluster_link_prune> id_service_net = 48 id_consumer = 47 cost_bandwidth = 6
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 47 is clear
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_center> net_id = 1 vlaue = -999992 out_flow = 7
+[INFO] <cluster_center> net_id = 4 vlaue = -999901 out_flow = 98
+[INFO] <cluster_center> net_id = 5 vlaue = -999894 out_flow = 105
+[INFO] <cluster_center> net_id = 6 vlaue = -999913 out_flow = 86
+[INFO] <cluster_center> net_id = 7 vlaue = -999899 out_flow = 100
+[INFO] <cluster_center> net_id = 11 vlaue = 61 out_flow = 61
+[INFO] <cluster_center> net_id = 14 vlaue = -999935 out_flow = 64
+[INFO] <cluster_center> net_id = 32 vlaue = -999992 out_flow = 7
+[INFO] <cluster_center> net_id = 34 vlaue = -999979 out_flow = 20
+[INFO] <cluster_center> net_id = 41 vlaue = -999960 out_flow = 39
+[INFO] <cluster_center> net_id = 47 vlaue = -999952 out_flow = 47
+[INFO] <cluster_center> net_id = 52 vlaue = -999983 out_flow = 16
+[INFO] <cluster_center> net_id = 57 vlaue = -999961 out_flow = 38
+[INFO] <cluster_center> net_id = 70 vlaue = -999980 out_flow = 19
+[INFO] <cluster_center> net_id = 111 vlaue = -999964 out_flow = 35
+[INFO] <cluster_center> net_id = 112 vlaue = -999959 out_flow = 40
+[INFO] <cluster_center> net_id = 125 vlaue = -999999 out_flow = 0
+[INFO] <cluster_center> net_id = 146 vlaue = -999942 out_flow = 57
+[INFO] <cluster_center> net_id = 150 vlaue = -999961 out_flow = 38
+[INFO] <cluster_flow_out_main> cluster_id = 40 id_service_net = 11 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 40 id_service_net = 11
+[INFO] <cluster_link_prune> id_service_net = 11 id_consumer = 15 cost_bandwidth = 13
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO] <cluster_flow_out_process> id_consumer = 15 is clear
+[INFO] <dijkstra_process_main> cluster_id = 40
+[INFO]<cluster_flow_out_main> cluster40: server num : 11
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_flow_out_main> cluster_id = 41
+[INFO] <cluster_flow_out_main> cluster_id = 41 id_service_net = 108 num_cluster_consumer = 3
+[INFO] <cluster_flow_out_process> cluster_id = 41 id_service_net = 108
+[INFO] <cluster_link_prune> id_service_net = 108 id_consumer = 67 cost_bandwidth = 80
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_flow_out_process> id_consumer = 67 is clear
+[INFO] <cluster_link_prune> id_service_net = 108 id_consumer = 1 cost_bandwidth = 45
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_link_prune> id_service_net = 108 id_consumer = 1 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_flow_out_process> id_consumer = 1 is can not flow
+[INFO] <cluster_flow_out_process> id_consumer = 54 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_center> net_id = 8 vlaue = -999946 out_flow = 53
+[INFO] <cluster_center> net_id = 9 vlaue = -999939 out_flow = 63
+[INFO] <cluster_center> net_id = 10 vlaue = -999966 out_flow = 37
+[INFO] <cluster_center> net_id = 109 vlaue = -999944 out_flow = 60
+[INFO] <cluster_center> net_id = 110 vlaue = -999969 out_flow = 44
+[INFO] <cluster_center> net_id = 118 vlaue = 24 out_flow = 37
+[INFO] <cluster_center> net_id = 149 vlaue = 101 out_flow = 108
+[INFO] <cluster_flow_out_main> cluster_id = 41 id_service_net = 149 num_cluster_consumer = 2
+[INFO] <cluster_flow_out_process> cluster_id = 41 id_service_net = 149
+[INFO] <cluster_link_prune> id_service_net = 149 id_consumer = 1 cost_bandwidth = 24
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_flow_out_process> id_consumer = 1 is clear
+[INFO] <cluster_link_prune> id_service_net = 149 id_consumer = 54 cost_bandwidth = 14
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_flow_out_process> id_consumer = 54 is can not flow
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_center> net_id = 8 vlaue = 39 out_flow = 39
+[INFO] <cluster_center> net_id = 9 vlaue = 46 out_flow = 49
+[INFO] <cluster_center> net_id = 10 vlaue = 33 out_flow = 37
+[INFO] <cluster_center> net_id = 109 vlaue = -999953 out_flow = 46
+[INFO] <cluster_center> net_id = 110 vlaue = -999953 out_flow = 46
+[INFO] <cluster_center> net_id = 118 vlaue = -999999 out_flow = 0
+[INFO] <cluster_flow_out_main> cluster_id = 41 id_service_net = 9 num_cluster_consumer = 1
+[INFO] <cluster_flow_out_process> cluster_id = 41 id_service_net = 9
+[INFO] <cluster_link_prune> id_service_net = 9 id_consumer = 54 cost_bandwidth = 7
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_link_prune> id_service_net = 9 id_consumer = 54 cost_bandwidth = 2
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO] <cluster_flow_out_process> id_consumer = 54 is clear
+[INFO] <dijkstra_process_main> cluster_id = 41
+[INFO]<cluster_flow_out_main> cluster41: server num : 3
+[INFO]<cluster_main> num_result_link = 169 num_consumer_remain = 0
+[RESULT CORRECT] sum = 39639, num_server = 59
+Open file /mnt/hgfs/winshare/case/result.txt OK.
+End date/time is: Mon Apr  3 09:11:12 2017
+ 	used time is 0 s 194 ms.

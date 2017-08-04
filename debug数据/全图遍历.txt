@@ -1,0 +1,141 @@
+czl@ubuntu:/mnt/hgfs/winshare/huawei/bin$ ./cdn /mnt/hgfs/winshare/case/case10.txt /mnt/hgfs/winshare/case/result.txt
+Begin date/time is: Sat Mar 18 20:45:08 2017
+ 	used time is 0 s 0 ms.
+Open file /mnt/hgfs/winshare/case/case10.txt OK.
+There are 62 lines in file /mnt/hgfs/winshare/case/case10.txt.
+line num is :62 
+consumer 0 to 1 : distance = 5 bandwidth = 14 
+[0] 8 0 9 11 [1] 
+consumer 0 to 2 : distance = 6 bandwidth = 22 
+[0] 8 21 22 [2] 
+consumer 0 to 3 : distance = 3 bandwidth = 13 
+[0] 8 0 3 [3] 
+consumer 0 to 4 : distance = 6 bandwidth = 20 
+[0] 8 0 1 18 17 [4] 
+consumer 0 to 5 : distance = 5 bandwidth = 20 
+[0] 8 0 1 19 [5] 
+consumer 0 to 6 : distance = 4 bandwidth = 8 
+[0] 8 0 16 [6] 
+consumer 0 to 7 : distance = 6 bandwidth = 16 
+[0] 8 0 1 15 13 [7] 
+consumer 0 to 8 : distance = 5 bandwidth = 13 
+[0] 8 0 6 5 [8] 
+consumer 0 to 9 : distance = 5 bandwidth = 16 
+[0] 8 0 1 15 [9] 
+consumer 0 to 10 : distance = 4 bandwidth = 25 
+[0] 8 0 7 [10] 
+consumer 0 to 11 : distance = 5 bandwidth = 13 
+[0] 8 0 3 24 [11] 
+consumer 1 to 2 : distance = 7 bandwidth = 5 
+[1] 11 9 0 2 21 22 [2] 
+consumer 1 to 3 : distance = 4 bandwidth = 13 
+[1] 11 9 0 3 [3] 
+consumer 1 to 4 : distance = 7 bandwidth = 14 
+[1] 11 9 0 1 18 17 [4] 
+consumer 1 to 5 : distance = 6 bandwidth = 14 
+[1] 11 9 0 1 19 [5] 
+consumer 1 to 6 : distance = 5 bandwidth = 8 
+[1] 11 9 0 16 [6] 
+consumer 1 to 7 : distance = 7 bandwidth = 14 
+[1] 11 9 0 1 15 13 [7] 
+consumer 1 to 8 : distance = 6 bandwidth = 13 
+[1] 11 9 0 6 5 [8] 
+consumer 1 to 9 : distance = 6 bandwidth = 14 
+[1] 11 9 0 1 15 [9] 
+consumer 1 to 10 : distance = 5 bandwidth = 14 
+[1] 11 9 0 7 [10] 
+consumer 1 to 11 : distance = 6 bandwidth = 13 
+[1] 11 9 0 3 24 [11] 
+consumer 2 to 3 : distance = 3 bandwidth = 11 
+[2] 22 24 3 [3] 
+consumer 2 to 4 : distance = 7 bandwidth = 4 
+[2] 22 21 2 1 18 17 [4] 
+consumer 2 to 5 : distance = 5 bandwidth = 11 
+[2] 22 24 3 19 [5] 
+consumer 2 to 6 : distance = 6 bandwidth = 5 
+[2] 22 21 2 0 16 [6] 
+consumer 2 to 7 : distance = 7 bandwidth = 4 
+[2] 22 21 2 1 15 13 [7] 
+consumer 2 to 8 : distance = 6 bandwidth = 5 
+[2] 22 21 2 4 5 [8] 
+consumer 2 to 9 : distance = 6 bandwidth = 4 
+[2] 22 21 2 1 15 [9] 
+consumer 2 to 10 : distance = 6 bandwidth = 5 
+[2] 22 21 2 0 7 [10] 
+consumer 2 to 11 : distance = 1 bandwidth = 11 
+[2] 22 24 [11] 
+consumer 3 to 4 : distance = 4 bandwidth = 11 
+[3] 3 1 18 17 [4] 
+consumer 3 to 5 : distance = 2 bandwidth = 24 
+[3] 3 19 [5] 
+consumer 3 to 6 : distance = 3 bandwidth = 8 
+[3] 3 0 16 [6] 
+consumer 3 to 7 : distance = 4 bandwidth = 11 
+[3] 3 1 15 13 [7] 
+consumer 3 to 8 : distance = 4 bandwidth = 7 
+[3] 3 2 4 5 [8] 
+consumer 3 to 9 : distance = 3 bandwidth = 11 
+[3] 3 1 15 [9] 
+consumer 3 to 10 : distance = 3 bandwidth = 13 
+[3] 3 0 7 [10] 
+consumer 3 to 11 : distance = 2 bandwidth = 17 
+[3] 3 24 [11] 
+consumer 4 to 5 : distance = 5 bandwidth = 22 
+[4] 17 18 1 19 [5] 
+consumer 4 to 6 : distance = 5 bandwidth = 22 
+[4] 17 18 1 16 [6] 
+consumer 4 to 7 : distance = 6 bandwidth = 16 
+[4] 17 18 1 15 13 [7] 
+consumer 4 to 8 : distance = 7 bandwidth = 4 
+[4] 17 18 1 2 4 5 [8] 
+consumer 4 to 9 : distance = 5 bandwidth = 16 
+[4] 17 18 1 15 [9] 
+consumer 4 to 10 : distance = 6 bandwidth = 20 
+[4] 17 18 1 0 7 [10] 
+consumer 4 to 11 : distance = 6 bandwidth = 11 
+[4] 17 18 1 3 24 [11] 
+consumer 5 to 6 : distance = 4 bandwidth = 24 
+[5] 19 1 16 [6] 
+consumer 5 to 7 : distance = 5 bandwidth = 16 
+[5] 19 1 15 13 [7] 
+consumer 5 to 8 : distance = 6 bandwidth = 7 
+[5] 19 3 2 4 5 [8] 
+consumer 5 to 9 : distance = 4 bandwidth = 16 
+[5] 19 1 15 [9] 
+consumer 5 to 10 : distance = 5 bandwidth = 13 
+[5] 19 3 0 7 [10] 
+consumer 5 to 11 : distance = 4 bandwidth = 17 
+[5] 19 3 24 [11] 
+consumer 6 to 7 : distance = 5 bandwidth = 16 
+[6] 16 1 15 13 [7] 
+consumer 6 to 8 : distance = 5 bandwidth = 8 
+[6] 16 0 6 5 [8] 
+consumer 6 to 9 : distance = 4 bandwidth = 16 
+[6] 16 1 15 [9] 
+consumer 6 to 10 : distance = 4 bandwidth = 8 
+[6] 16 0 7 [10] 
+consumer 6 to 11 : distance = 5 bandwidth = 8 
+[6] 16 0 3 24 [11] 
+consumer 7 to 8 : distance = 7 bandwidth = 4 
+[7] 13 15 1 2 4 5 [8] 
+consumer 7 to 9 : distance = 1 bandwidth = 27 
+[7] 13 15 [9] 
+consumer 7 to 10 : distance = 6 bandwidth = 16 
+[7] 13 15 1 0 7 [10] 
+consumer 7 to 11 : distance = 6 bandwidth = 11 
+[7] 13 15 1 3 24 [11] 
+consumer 8 to 9 : distance = 6 bandwidth = 13 
+[8] 5 6 0 1 15 [9] 
+consumer 8 to 10 : distance = 5 bandwidth = 13 
+[8] 5 6 0 7 [10] 
+consumer 8 to 11 : distance = 6 bandwidth = 13 
+[8] 5 6 0 3 24 [11] 
+consumer 9 to 10 : distance = 5 bandwidth = 16 
+[9] 15 1 0 7 [10] 
+consumer 9 to 11 : distance = 5 bandwidth = 11 
+[9] 15 1 3 24 [11] 
+consumer 10 to 11 : distance = 5 bandwidth = 13 
+[10] 7 0 3 24 [11] 
+Open file /mnt/hgfs/winshare/case/result.txt OK.
+End date/time is: Sat Mar 18 20:45:08 2017
+ 	used time is 0 s 11 ms.
